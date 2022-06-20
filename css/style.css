@@ -288,7 +288,7 @@ button:hover {
 }
 
 .camera-sung {
-    background: url(/img/camera-samsung.jpg);
+    background: url(../img/camera-samsung.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
