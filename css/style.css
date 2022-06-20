@@ -1,0 +1,378 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+button {
+    background-color: #006BEA;
+    width: 300px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    
+    transition: all 0.5s ease ;
+}
+
+button:hover { 
+    transform: scale(1.1);
+}
+
+/* HOME */
+
+.background {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1366px;
+    height: 100%;
+
+}
+
+.navbar {
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navbar .logo h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.3rem;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+.navbar .logo .widget-bar {
+    width: 165px;
+    height: 2px;
+    background-color: white;
+    margin-left: 28px;
+}
+
+.navbar nav {
+    margin-top: 10px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar nav ul a {
+    padding: 4px 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    margin: 0px 3px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.navbar nav ul a:hover {
+    background-color: white;
+    color: black;
+}
+
+.navbar nav ul a:active {
+    background-color: white;
+    color: black;
+}
+
+.navbar nav .menu {
+    display: none;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: all 0.5s ease;
+}
+
+.navbar nav .menu:hover {
+    color: gray;
+    cursor: pointer;
+
+}
+
+.img-titulo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.img-home {
+    width: 450px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.img .img-home:hover {
+    transform: scale(1.1);
+}
+
+/* FICHA TÈCNICA */
+
+.ficha {
+    color: white;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/img-phone.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-ficha {
+    margin: 10px;
+    max-width: 1000px;
+    font-size: 2.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.process {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.conteudo-process {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    max-width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ficha-conteudo {
+    max-width: 1000px;
+}
+
+
+.ficha-conteudo h1 {
+    font-size: 3rem;
+    margin-bottom: 70px;
+}
+
+.img-process {
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.battery {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.battery-container {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    max-width: 1000px;
+    height: auto;
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+
+.battery-conteudo {
+    margin-bottom: 30px;
+}
+
+.battery-conteudo p {
+    font-size: 1.2rem;
+}
+
+.battery-conteudo h1 {
+    font-size: 1.8rem;
+}
+
+.battery-conteudo p, h1, q{
+    margin: 30px;
+}
+
+.battery-conteudo q {
+    font-size: 0.7rem;
+}
+
+
+.battery-ilustrator {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(/img/battery-ilustrator.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 700px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.battery-width {
+    max-width: 450px;
+    height: auto;
+    margin: 20px;
+}
+
+.camera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    height: auto;
+}
+
+.camera-container {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    width: 1000px;
+    max-width: 1000px;
+}
+
+.camera-conteudo {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.camera-conteudo p {
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+}
+
+.camera-conteudo h1 {
+    font-size: 3rem;
+    margin-bottom: 70px;
+    font-weight: normal;
+}
+
+.camera-sung {
+    background: url(/img/camera-samsung.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    max-width: 100%;
+    height: 800px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+    color: white;
+    justify-content: space-between;
+}
+
+.name h1 {
+    font-variant: small-caps;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.socials {
+    margin-right: 30px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+    font-size: 1.3rem;
+    transition: all 0.5s ease;
+}
+
+.socials a:hover {
+    color: gray;
+}
+
+
+@media (max-width:800px) {
+    .navbar nav ul {
+        display: none;
+    }
+
+    .navbar nav .menu {
+        display: flex;
+    }
+}
+
+@media (max-width: 600px) {
+    .conteudo-ficha h1 {
+        font-size: 2.1rem;
+    }
+
+    .ficha-conteudo h1 {
+        font-size: 2.1rem;
+    }
+
+    .battery-conteudo {
+        font-size: 2rem;
+        width: auto;
+    }
+
+    .camera-conteudo h1 {
+        font-size: 2.1rem;
+    }
+}
+
+@media (max-width:500px) {
+    .img-home {
+        width: 300px;
+    }
+
+    .battery-width {
+        width: 400px;
+        height: auto;
+        margin: 20px;
+    }
+
+    .battery-ilustrator {
+        width: 400px;
+    }
+
+
+}
+
+
