@@ -142,7 +142,7 @@ button:hover {
 
 .ficha {
     color: white;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/img-phone.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/img-phone.jpg);
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -238,7 +238,7 @@ button:hover {
 
 
 .battery-ilustrator {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(/img/battery-ilustrator.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/battery-ilustrator.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
